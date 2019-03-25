@@ -1,0 +1,4 @@
+<Rule name="check element availability  {id-101}">
+    <Failed status="Failed" severity="Blocker" reason="Element not available"/>
+    <Passed status="Failed" severity="Blocker" reason="Element available"/>
+</Rule>
