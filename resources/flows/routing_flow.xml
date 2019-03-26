@@ -1,0 +1,29 @@
+<Rule name="click on {route_btn_id}">
+    <Failed status="Failed" severity="Blocker" reason="Element not available"/>
+    <Passed>
+        <Rule name="set route origin in {route_origin}">
+            <Passed>
+                <Rule name="set route destination in {route_destination}">
+                    <Passed>
+                        <Rule name="set route profile to {car_profile_id}">
+                            <Passed>
+                                <Rule name="click on {calculate_route_btn}" severity="Blocker">
+                                    <Passed>
+                                        <Rule name="check route summary {route_summary}">
+                                            <Passed status="Passed" severity="Critical"/>
+                                            <Failed status="Failed" severity="Critical"/>
+                                        </Rule>
+                                    </Passed>
+                                    <Failed status="Failed" severity="Blocker" reason="Element not available"/>
+                                </Rule>
+                            </Passed>
+                            <Failed status="Failed" severity="Critical"/>
+                        </Rule>
+                    </Passed>
+                    <Failed status="Failed" severity="Critical" reason="Element not available"/>
+                </Rule>
+            </Passed>
+            <Failed status="Failed" severity="Blocker" reason="Element not available"/>
+        </Rule>
+    </Passed>
+</Rule>

@@ -1,0 +1,33 @@
+{
+  "search_flow": [
+    {
+      "input": {
+        "address": "Cluj-Napoca"
+      },
+      "expected": {
+        "address": "Cluj-Napoca"
+      }
+    },
+    {
+      "input": {
+        "address": "New York"
+      },
+      "expected": {
+        "address": "New York"
+      }
+    }
+  ],
+  "routing_flow": [
+    {
+      "input": {
+        "origin": "Cluj",
+        "destination": "Bistrita"
+      },
+      "expected": {
+        "info": "Distance: 110km. Time: 2:10."
+      }
+    }
+  ]
+}
+
+

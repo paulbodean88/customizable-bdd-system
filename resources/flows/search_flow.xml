@@ -1,0 +1,19 @@
+<Rule name="check element {search_input} exists">
+    <Failed status="Failed" severity="Blocker" reason="Element not available"/>
+    <Passed>
+        <Rule name="search in {search_input}" severity="Critical">
+            <Passed>
+                <Rule name="click on {search_button}">
+                    <Passed>
+                        <Rule name="validate result in container {search_results}">
+                            <Passed status="Passed"/>
+                            <Failed status="Failed"/>
+                        </Rule>
+                    </Passed>
+                    <Failed status="Failed"/>
+                </Rule>
+            </Passed>
+            <Failed status="Failed"/>
+        </Rule>
+    </Passed>
+</Rule>

@@ -1,0 +1,14 @@
+{
+  "search_input": "#sidebar > div:nth-child(1) > form:nth-child(1) > div:nth-child(3) > input:nth-child(1)",
+  "search_button": "#sidebar > div:nth-child(1) > form:nth-child(1) > input:nth-child(2)",
+  "search_results": "#sidebar_content > div:nth-child(3)",
+  "route_btn_id": "#sidebar > div:nth-child(1) > form:nth-child(1) > a:nth-child(1)",
+  "route_origin": "#sidebar > div:nth-child(1) > form:nth-child(2) > div:nth-child(2) > span:nth-child(2) > input:nth-child(1)",
+  "route_destination": "#sidebar > div:nth-child(1) > form:nth-child(2) > div:nth-child(3) > span:nth-child(2) > input:nth-child(1)",
+  "calculate_route_btn": "/html/body/div/div[1]/div[1]/form[2]/div[4]/select",
+  "profile_selector": "#sidebar > div.search_forms > form.directions_form > div:nth-child(4) > select",
+  "bike_profile_id": "/html/body/div/div[1]/div[1]/form[2]/div[4]/select/option[1]",
+  "car_profile_id": "/html/body/div/div[1]/div[1]/form[2]/div[4]/select/option[3]",
+  "pedestrian_profile_id": "/html/body/div/div[1]/div[1]/form[2]/div[4]/select/option[5]",
+  "route_summary": "#routing_summary"
+}
