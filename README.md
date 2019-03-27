@@ -1,19 +1,3 @@
-# Mentors
-* Paul Bodean
-* Eugen Meltis
-
-# Workshop structure
-* |18:00 - 18:30| BDD Intro, Env. setup, XML definition
-
-* |18:30 - 19:00| Build an xml example, Parser
-
-* |19:00 - 19:30| Pizza time
-
-* |19:30 - 20:00| Rules definition & implementation
-
-* |20:00 - 20:30| Play around + sample report
-
-
 # Why BDD
 Behaviour driven development - software development approach derived from TDD. It's used mostly in a non tech language, 
 which would be easily to read by both developers, clients.
@@ -26,13 +10,7 @@ Given the User has not entered any data on the form
 When they click the submit button
 Then proper validation messages should be show.
 
-# BDD tools
-
-### Behave -> https://behave.readthedocs.io/en/latest/tutorial.html
-### Cucumber -> https://docs.cucumber.io/guides/10-minute-tutorial/
 ### Define your own
-
-
 #Benefits of using BDD
     You are no longer defining ‘test’, but are defining ‘behavior’.
     Better communication between developers, testers and product owners.
